@@ -1,0 +1,539 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+}
+body {
+  background-color: rgba(16, 15, 15, 0.897);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.music {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.texth5 {
+  display: flex;
+  gap: 70px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.texth2 {
+  font-size: 30px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.main h1 {
+  font-size: 90px;
+  color: white;
+  margin-left: 60px;
+}
+.main-text img {
+  margin-left: 60px;
+  margin-top: 80px;
+}
+.episode-text {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.episode {
+  margin-top: 80px;
+}
+.episode-text button {
+  width: 140px;
+  height: 35px;
+  background-color: rgb(127, 189, 255);
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.blok {
+  background-color: black;
+  padding: 35px;
+  margin-top: 80px;
+  display: flex;
+  border-radius: 30px;
+  color: white;
+}
+.blok-text {
+  margin-left: 60px;
+}
+.blok-text h1 {
+  font-size: 65px;
+  margin-top: 30px;
+}
+.blok-text p {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.blok-text h6 {
+  font-size: 15px;
+  margin-top: 80px;
+}
+
+.blok-text button {
+  margin-top: 20px;
+  width: 140px;
+  height: 35px;
+  background-color: rgb(127, 189, 255);
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.dav {
+  background-color: black;
+  padding: 35px;
+  margin-top: 80px;
+  display: flex;
+  border-radius: 30px;
+  color: white;
+}
+.dav-img img {
+  width: 389px;
+  height: 465px;
+}
+.dav-text2 {
+  margin-left: 60px;
+}
+.dav-text2 h1 {
+  font-size: 65px;
+  margin-top: 30px;
+}
+.dav-text2 p {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.dav-text2 h6 {
+  font-size: 15px;
+  margin-top: 100px;
+}
+.dav-text2 button {
+  margin-top: 20px;
+  width: 140px;
+  height: 35px;
+  background-color: rgb(127, 189, 255);
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.ban {
+  background-color: black;
+  padding: 35px;
+  margin-top: 80px;
+  display: flex;
+  border-radius: 30px;
+  color: white;
+}
+.ban-img img {
+  width: 389px;
+  height: 465px;
+}
+.ban-text2 {
+  margin-left: 60px;
+}
+.ban-text2 h1 {
+  font-size: 65px;
+  margin-top: 30px;
+}
+.ban-text2 p {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.ban-text2 h6 {
+  font-size: 15px;
+  margin-top: 100px;
+}
+.ban-text2 button {
+  margin-top: 20px;
+  width: 140px;
+  height: 35px;
+  background-color: rgb(127, 189, 255);
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.meet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-top: 300px;
+}
+.meetimg img {
+  width: 90px;
+  height: 90px;
+  background-color: aqua;
+  border-radius: 50%;
+  color: white;
+}
+.meetimg img:hover {
+  background-color: aqua;
+  color: white;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.meetimg h6 {
+  font-size: 15px;
+}
+.meetimg h1 {
+  font-size: 70px;
+}
+.meetimg p {
+  font-size: 20px;
+  margin-top: 50px;
+  font-weight: 400;
+}
+.meet-img2 img {
+  width: 650px;
+  height: 740px;
+  border-radius: 20px;
+}
+.like {
+  background-color: black;
+  padding: 35px;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  color: white;
+  height: 350px;
+}
+.like h6 {
+  font-size: 15px;
+}
+.like h1 {
+  font-size: 70px;
+}
+.subwey input {
+  width: 522px;
+  height: 60px;
+  margin-bottom: 20px;
+  background-color: #191919;
+  color: white;
+  padding: 20px;
+  border: none;
+}
+.subwey button {
+  width: 87px;
+  height: 40px;
+  background-color: rgb(127, 189, 255);
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.emoji {
+  margin-top: 200px;
+}
+.emoji-text1 {
+  display: flex;
+  justify-content: space-between;
+}
+.emoji-text2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.emoji1 {
+  background-color: black;
+  color: white;
+  padding: 60px;
+  border-radius: 20px;
+  width: 420px;
+  height: 320px;
+}
+.emoji1 h3 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.emoji1 p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.emoji2 {
+  background-color: black;
+  color: white;
+  padding: 60px;
+  border-radius: 20px;
+  width: 420px;
+  height: 320px;
+}
+.emoji2 h3 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.emoji2 p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.emoji3 {
+  background-color: black;
+  color: white;
+  padding: 60px;
+  border-radius: 20px;
+  width: 420px;
+  height: 320px;
+}
+.emoji3 h3 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.emoji3 p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.emoji4 {
+  background-color: black;
+  color: white;
+  padding: 60px;
+  border-radius: 20px;
+  width: 420px;
+  height: 320px;
+}
+.emoji4 h3 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.emoji4 p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.emoji5 {
+  background-color: black;
+  color: white;
+  padding: 60px;
+  border-radius: 20px;
+  width: 420px;
+  height: 320px;
+}
+.emoji5 h3 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.emoji5 p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.emoji6 {
+  background-color: black;
+  color: white;
+  padding: 60px;
+  border-radius: 20px;
+  width: 420px;
+  height: 320px;
+}
+.emoji6 h3 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.emoji6 p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.castaway {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 200px;
+}
+.castaway p {
+  font-size: 20px;
+}
+.castaway-img {
+  margin-top: 20px;
+}
+.button4 button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: white;
+}
+.button2 button {
+  width: 70px;
+  height: 30px;
+  background-color: #191919;
+}
+.button2 button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: white;
+}
+.button3 button {
+  width: 120px;
+  height: 30px;
+  background-color: #191919;
+}
+.button3 button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: white;
+}
+.button4 button {
+  width: 70px;
+  height: 30px;
+  background-color: #191919;
+}
+.texth5 h5:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+}
+.button5 button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: black;
+}
+.button5 button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: black;
+}
+.button6 button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: black;
+}
+.button7 button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: black;
+}
+.button8 button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: rgba(37, 34, 34, 0.505);
+}
+.button9 button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: black;
+}
+.emoji1:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: black;
+}
+.emoji2:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: black;
+}
+.emoji3:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: black;
+}
+.emoji4:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: black;
+}
+.emoji5:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: black;
+}
+.emoji6:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(127, 189, 255);
+  background-color: black;
+}
+.button9 button:hover {
+  box-shadow: 10px 10px 70px blue;
+  transform: translateY(3px);
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  transition: 0.6s all ease;
+}
+.button6 button:hover {
+  box-shadow: 10px 10px 70px blue;
+  transform: translateY(3px);
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  transition: 0.6s all ease;
+}
+.button5 button:hover {
+  box-shadow: 10px 10px 70px blue;
+  transform: translateY(3px);
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  transition: 0.6s all ease;
+}
+.button7 button:hover {
+  box-shadow: 10px 10px 70px blue;
+  transform: translateY(3px);
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  transition: 0.6s all ease;
+}
+.button6 button:hover {
+  box-shadow: 10px 10px 70px blue;
+  transform: translateY(3px);
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  transition: 0.6s all ease;
+}
+.button4 button:hover {
+  box-shadow: 10px 10px 50px white;
+  transform: translateY(3px);
+  background-color: rgb(127, 189, 255);
+  color: black;
+  border-radius: 10px;
+  transition: 0.6s all ease;
+}
+.button3 button:hover {
+  box-shadow: 10px 10px 70px white;
+  transform: translateY(3px);
+  background-color: rgb(127, 189, 255);
+  color: black;
+  border-radius: 10px;
+  transition: 0.6s all ease;
+}
+.button8 button:hover {
+  box-shadow: 10px 10px 70px blue;
+  transform: translateY(3px);
+  background-color: rgba(25, 21, 21, 0.797);
+  color: white;
+  border-radius: 15px;
+  transition: 0.6s all ease;
+}
+.button2 button:hover {
+  box-shadow: 10px 10px 50px white;
+  transform: translateY(3px);
+  background-color: rgb(127, 189, 255);
+  color: black;
+  border-radius: 10px;
+  transition: 0.6s all ease;
+}
